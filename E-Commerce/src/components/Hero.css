@@ -45,3 +45,32 @@
 .hero-cta:hover {
   background: #3b82f6;
 }
+
+.cart-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-icon {
+  font-size: 1.6rem;
+  color: #cbd5e1;
+  line-height: 1;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: #e53935;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
